@@ -7,4 +7,8 @@
     <string name="add">اجمع</string>
     <string name="close">إغلاق</string>
     <string name="sum">المجموع</string>
+    <string name="Closing" translatable="false">هل تريد إغلاق التطبيق </string>
+    <string name="Positivekey" translatable="false">إغلاق التطبيق</string>
+    <string name="AlertDialoge" translatable="false">alert dialoge</string>
+    <string name="Cancel" translatable="false">إلغاء</string>
 </resources>

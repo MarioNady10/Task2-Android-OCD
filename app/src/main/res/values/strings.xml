@@ -6,4 +6,8 @@
     <string name="add">Add</string>
     <string name="close">close</string>
     <string name="sum">Sum =</string>
+    <string name="Closing" translatable="false">Do you want close app</string>
+    <string name="Positivekey" translatable="false">Close App</string>
+    <string name="AlertDialoge" translatable="false">alert dialoge</string>
+    <string name="Cancel" translatable="false">Cancel</string>
 </resources>

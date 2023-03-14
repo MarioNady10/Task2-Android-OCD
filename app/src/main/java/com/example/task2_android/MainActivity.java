@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 EditText first,secand;
-Button add,result;
+Button add,close;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ Button add,result;
         first = findViewById(R.id.First_Number);
         secand = findViewById(R.id.Secand_Number);
         add = findViewById(R.id.add1);
-        result = findViewById(R.id.Result);
+        close = findViewById(R.id.Close);
 
         add.setOnClickListener(view -> {
             if(!first.getText().toString().isEmpty()&&!secand.getText().toString().isEmpty()) {
@@ -39,12 +39,12 @@ Button add,result;
 
         });
 
-        result.setOnClickListener(view -> {
+        close.setOnClickListener(view -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-            builder.setTitle("alert dialoge");
-            builder.setMessage("Do you want close app");
-            builder.setPositiveButton("Yes", (dialogInterface, i) -> MainActivity.this.finish());
-            builder.setNegativeButton("No", (dialogInterface, i) -> dialogInterface.cancel());
+            builder.setTitle(R.string.AlertDialoge);
+            builder.setMessage(R.string.Closing);
+            builder.setPositiveButton(R.string.Positivekey, (dialogInterface, i) -> MainActivity.this.finish());
+            builder.setNegativeButton(R.string.Cancel, (dialogInterface, i) -> dialogInterface.cancel());
             builder.create().show();
 
         });
