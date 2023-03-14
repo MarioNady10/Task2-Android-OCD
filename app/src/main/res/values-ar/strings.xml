@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تاسك 2</string>
+    <string name="yes">نعم</string>
+    <string name="enter_the_first_number">الرقم الأول</string>
+    <string name="enter_the_secand_number">الرقم الثانى</string>
+    <string name="add">اجمع</string>
+    <string name="close">إغلاق</string>
+    <string name="sum">المجموع</string>
+</resources>
